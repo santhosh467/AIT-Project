@@ -1,0 +1,127 @@
+@media only screen and (min-width:320px) and (max-width:768px) {
+	.main-menu {
+		text-align : right;
+	}
+	.main-menu ul {
+		display : none;		
+	}
+	.main-menu>nav>a, .banner, .about, .services, .footer-div {
+		display : block;
+	}
+	.main-menu>nav>a img {
+		border : 2px solid #fed200;
+		padding : 5px;
+		margin : 5px;
+		border-radius : 5px;
+	}
+	.banner-content h3 {
+		margin: 0;
+	}
+	.banner-img, .about-img {
+		padding: 0;
+		text-align: center;
+	}
+	.banner-img img, .about-img img {
+		width: 75%;
+	}
+	.services {
+		text-align: center;
+	}
+	.services, .about, .team, .testimonial, .call-back, footer, .footer-left {
+		padding: 10px;
+	}
+	.service-box figure {
+		text-align : left;
+	}
+	.service-box img {
+		width: auto;
+	}
+	.about h2::after {
+		position: relative;
+		left: 0;
+	}	
+	.team-members, .footer-div{
+		width: 100%;
+	}	
+	.testimonial-div {
+		width: 65%;
+	}
+	.team-members figure {
+		width: 45%;
+	}
+	.testimonial-div {
+		margin: 10px auto;
+	}
+	.testimonial-content {
+		margin-left: 0;
+	}
+	.testimonial-img figure img:nth-child(2) {
+		margin-top: 0;
+	}
+	.testimonial-content img {
+		right: 15%;
+	}	
+	.testimonial h2::after {
+		margin-right: 45%;
+	}
+	.call-back input, .call-back textarea {
+		width: 70%;
+	}
+}	
+@media only screen and (min-width:320px) and (max-width:480px) {
+	header>.logo>img {
+		width: 250px;
+	}
+	.banner-content {
+		padding-left: 10px;
+	}
+	.banner-btn {
+		padding: 15px 15px;
+	}
+	.about-content {
+		margin-bottom: 20px;
+	}	
+	.team-members {
+		width: 80%;
+	}
+	.team-members figure, .testimonial-div {
+		width: 100%;
+	}	
+	.testimonial-content img {
+		right: 0;
+	}
+	.testimonial h2::after {
+		margin-right: 41%;
+	}
+}
+@media only screen and (min-width:768px) and (max-width:992px) {
+	.services, .about {
+		padding: 50px;
+	}
+	.team-members {
+		width: 80%;
+	}
+	.testimonial h2::after {
+		margin-right: 45%;
+	}
+	.footer-div {
+		width: 90%;
+	}
+}	
+@media only screen and (min-width:992px) and (max-width:1300px) {
+	.services, .about {
+		padding: 50px;
+	}
+	.team-members, .footer-div {
+		width: 80%;
+	}
+	.testimonial-div {
+		width: 75%;
+	}
+	.testimonial-content img {
+		right: 18%;
+	}
+	.testimonial h2::after {
+		margin-right: 46%;
+	}
+}

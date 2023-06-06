@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>AIT Construction | Register</title>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+		<link href="./css/style.css" rel="stylesheet">
+		<link href="./css/rwd.css" rel="stylesheet">
+		<link href="./css/login.css" rel="stylesheet">
+	</head>
+	<body>
+		<!--Header -->
+		 <header>
+			<a href="index.html" class="logo"><img src="./images/AIT-white.jpg" alt="logo" /></a>
+			<div class="main-menu">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about-us.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="our-team.html">Our Team</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+						<li><a href="login.html">Login</a></li>
+						<li class="active"><a href="register.html">Register</a></li>
+					</ul>
+					<a href="#"><img src="./images/menu_icon.png"  alt="mobile-menu" /></a>
+				</nav>
+			</div>
+		</header>		
+		<!-- Header -->
+		
+		<!--Register -->
+		<section class="login">
+			<h2>Register</h2>
+			<form method="POST" action="#" autocomplete="off">
+				<label for="name">Name *</label>
+				<input type="text" name="fullname" placeholder="Enter Your Name *" id="name" maxlength="30" required />
+				<label for="mail">Email *</label>
+				<input type="email" name="email" placeholder="Enter Your Email *" id="mail" maxlength="30" required />
+				<label for="phone">Phone Number *</label>
+				<input type="tel" name="phone" placeholder="Enter Your Phone No *" id="phone" pattern="[0-9]{10}" required />
+				<label for="dob">Date of Birth *</label>
+				<input type="date" name="dob" id="dob" />
+				<label for="pwd">Password *</label>
+				<input type="password" name="password" placeholder="Set a Password *" id="pwd" maxlength="10" required />
+				<label for="confirmpwd">Confirm Password *</label>
+				<input type="password" name="confirmpassword" placeholder="Re-enter Password *" id="confirmpwd" maxlength="10" required />
+				<button class="about-btn" type="submit" name="login">Register Now</button>
+			</form>
+		</section>
+		<!--Register-->
+		
+		<!--footer -->
+		<footer>
+			<img src="./images/AIT-white.jpg" alt="footer-logo" />
+			<div class="footer-div">
+				<div class="footer-left">
+					<ul>
+						<li><i class="fa fa-map-marker-alt"></i> Address : #63, 1st Floor, 16th Main, 8th Cross, BTN 1st Stage, BTM Layout, Bengaluru, Karnataka, 560029</li>
+						<li><i class="fas fa-phone-volume"></i> Phone : +91 8151000080</li>
+						<li><i class="fas fa-envelope"></i> Email : info@achieversit.com</li>
+					</ul>
+					<div class="newsletter">
+						<form method="POST" action="#" autocomplete="off">
+							<label for="newsletter">Newsletter</label>							
+							<input type="email" name="newsletter" id="newsletter" placeholder="Enter Your Email" maxlength="30" required />
+							<button class="subscribe-btn" type="submit" name="subscribe">SUBSCRIBE</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer-right">
+					<img src="./images/map.jpg" alt="map" />
+				</div>
+			</div>
+			<div class="copyright">
+				Copyright &copy; 2023. All rights reserved <a href="index.html">Achievers IT</a>
+			</div>
+		</footer>		
+		<!--footer-->
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	</body>
+</html>
